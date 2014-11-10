@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Eleanor is currently traipsing around Europe armed with a love of the unknown and a desire for delicious food.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+As a young twenty-something, Eleanor and her better half (www.odindutton.com) decided to pack up life in sunny Brisbane and embark on the trip of a lifetime.
