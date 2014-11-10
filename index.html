@@ -1,39 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Eleanor</title>
-    <!-- script here -->
-    <link href=/style.css media=screen rel=stylesheet type=text/css />
-  </head>
-  <body>
-    <main>
-      <h1>Eleanor Kiefel Haggerty</h1>
-      <ul>
-        <li>
-          <strong>profession</strong>
-          traveller
-        </li>
-        <li>
-          <strong>current location</strong>
-          ??
-        </li>
-        <li>
-          <strong>email</strong>
-          eleanorakh@gmail.com
-        </li>
-        <li>
-          <strong>twitter</strong>
-          @eleanorkh
-        </li>
-        <li>
-          <strong>blog</strong>
-          medium.com/@eleanorkh
-        </li>
-        <li>
-          <strong>images</strong>
-          500px.com/eleanorakh
-        </li>
-      </ul>
-    </main>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
