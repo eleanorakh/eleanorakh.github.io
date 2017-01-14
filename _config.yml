@@ -27,7 +27,10 @@ description: "Exploring the world"
 author: 'Eleanor Kiefel Haggerty'
 # edit 'categories' in the front matter of every post to match this username
 nickname: eleanor
-bio: 'After fourteen months of travel to 28 countries, Eleanor returned to Australia, moved to Melbourne and embarked on journey to learn to program.'
+bio: 'Food lover, wine drinker, world explorer, computer programmer'
+twitter_username: eleanorkh
+github_username: eleanorakh
+instagram_username: eleanorkh
 location: 'Melbourne, Australia'
 url: 'http://eleanorkh.com'
 image: 'assets/images/author-thumbnail.png'
