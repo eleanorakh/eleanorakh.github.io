@@ -1,6 +1,14 @@
 ---
 layout: post
+cover: false
 title: Hungary for more
+date: 2015-11-10
+tags: travel
+subclass: 'think'
+categories: 'travel'
+navigation: True
+logo: 'assets/images/ghost.png'
+cover: 'assets/images/cover1.jpg'
 excerpt: test
 ---
 
