@@ -6,8 +6,10 @@ navigation: True
 current: about
 ---
 
-This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.
+In 2014 I packed up my life in sunny Brisbane and left for Europe. Armed with
+nothing but a desire for adventure, my better half and I spent 14 months
+exploring 28 countries.
 
-We use this for testing and for reference!
-
-If you'd like to set up your own blog, head on over to [https://ghost.org](https://ghost.org) and sign up.
+Now back in Australia and living in the sublime Melbourne, I am an avid foodie,
+enjoying experimenting in the kitchen and sampling the never-ending restaurants
+Melbourne offers.
