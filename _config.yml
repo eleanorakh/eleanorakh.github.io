@@ -72,7 +72,7 @@ exclude: [vendor]
 # or "master" otherwise
 safe: false
 lsi: false
-username: eleanoarkh
+username: eleanorakh
 repo: eleanorakh.github.io
 branch: master
 relative_source: ../eleanorkh/
