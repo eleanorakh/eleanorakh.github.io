@@ -4,10 +4,10 @@ cover: false
 title: Hungary for more
 date: 2015-11-10
 tags: travel
-subclass: 'think'
-categories: 'travel'
+subclass: 'post tag-travel'
+categories: 'eleanor'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/logo.png'
 cover: 'assets/images/cover1.jpg'
 excerpt: test
 ---
