@@ -17,7 +17,7 @@
     {% for post in paginator.posts %}
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ post.title }}</a></h2>
+            <h2 class="post-title"><a href="{% if post.link %} {{ post.link }}{% else %}{{ site.baseurl }}{{ post.url | remove: '/' }}{% endif %}">{{ post.title }}</a></h2>
         </header>
         <section class="post-excerpt">
             <p>{{ post.excerpt | strip_html | truncatewords: 26 }} <a class="read-more" href="{% if post.link %} {{ post.link }}{% else %}{{ site.baseurl }}{{ post.url | remove: '/' }}{% endif %}">&raquo;</a></p>
