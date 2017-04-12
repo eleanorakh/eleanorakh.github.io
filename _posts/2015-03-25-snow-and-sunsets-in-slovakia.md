@@ -8,7 +8,7 @@ subclass: 'post tag-travel'
 categories: 'eleanor'
 navigation: True
 logo: 'assets/images/logo.png'
-cover: 'assets/images/cover1.jpg'
+cover: 'assets/images/covers/slovakia-cover.jpg'
 link: https://medium.com/@eleanorkh/snow-and-sunsets-in-slovakia-9db13bc39956
 excerpt: Reflections on the past year and year to come
 ---
