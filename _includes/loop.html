@@ -23,15 +23,6 @@
     <p>{{ post.excerpt | strip_html | truncatewords: 26 }} <a class="read-more" href="{% if post.link %} {{ post.link }}{% else %}{{ site.baseurl }}{{ post.url | remove: '/' }}{% endif %}">&raquo;</a></p>
   </section>
   <footer class="post-meta">
-    {% if post.tags.size > 0 %}
-      {% for tag in post.tags  %}
-        {% if forloop.index == post.tags.size %}
-          <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>
-        {% else %}
-          <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>,
-        {% endif %}
-      {% endfor %}
-    {% endif %}
     <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
   </footer>
 </article>
@@ -44,8 +35,6 @@
   {% include post_pagination.html %}
 {% elsif page.class == 'author-template' %}
   {% include author_pagination.html %}
-{% elsif page.class == 'tag-template' %}
-  {% include tag_pagination.html %}
 {% else %}
   {% include post_pagination.html %}
 {% endif %}

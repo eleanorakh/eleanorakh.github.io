@@ -1,0 +1,40 @@
+---
+layout: default
+title: about
+cover: 'assets/images/covers/aboutcover.jpg'
+class: 'author-template'
+navigation: True
+logo: 'assets/images/logo.png'
+current: about
+---
+<!-- < default}} -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
+
+<!-- The big featured header -->
+
+<!-- Everything inside the #author tags pulls data from the author -->
+<!-- #author  -->
+    <header class="main-header author-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+        <nav class="main-nav overlay clearfix">
+            {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
+            {% if page.navigation %}
+                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            {% endif %}
+        </nav>
+    </header>
+
+    <section class="author-profile inner">
+        {% if site.image %}
+        <figure class="author-image">
+            <div class="img" style="background-image: url({{ site.baseurl }}{{ site.image }})"><span class="hidden">{{ site.author }}'s Picture</span></div>
+        </figure>
+        {% endif %}
+        <h1 class="author-title">{{ site.author }}</h1>
+        {% if site.bio %}
+            <h2 class="author-bio">{{ site.bio }}</h2>
+        {% endif %}
+        {% include author_social.html %}
+        In 2014 I packed up my life in sunny Brisbane and left for Europe. Armed with
+        nothing but a desire for adventure, my better half and I spent 14 months
+        exploring 28 countries.</br>
+    </section>
